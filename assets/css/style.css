@@ -47,7 +47,8 @@ h6 {
 }
 
 body {
-    background-image:url("./../images/IMG_0614.avif");
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(249, 245, 245, 0.7), rgba(255, 255, 255, 0.7)), url("./../images/IMG_0614.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
