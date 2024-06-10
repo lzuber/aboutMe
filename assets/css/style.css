@@ -1,8 +1,7 @@
 :root {
     --background: rgb(151, 255, 255);
     --text: #001d1c;
-    --header-background: #047c6e;
-    --header-text: #ffffff;
+    --header-text: #01130e;
 
 }
 
@@ -10,37 +9,19 @@
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--text);
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-around;
 }
-
-.header div {
-    padding-top: 15px;
-    justify-content: flex-end;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    background-color: var(--header-background);
-} /* Borrowed some of this from Challenge 1 with my own adjustments*/
-
+ 
 .header div ul {
-    list-style-type: none;
-    background-color: var(--header-background);
-} /* Borrowed from Challenge 1 */
-
-.header div ul li {
+    display: flex;
     justify-content: space-between;
-    background-color: var(--header-background);
 }
-    .header h1,
-h2, 
-h3,
-h4,
-h5,
-h6 {
+    .header h1, h2
+{
     margin-bottom: 8;
     font-weight: 800;
     line-height: 1.2;;
-    background-color: var(--header-background);
     color: var(--header-text);
     font-size: 200%;
     text-align: center;
@@ -53,23 +34,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 16px;
-    line-height: 1;    
+    line-height: 1; 
+    justify-content: center;   
 }
 .row {
-    display: flex;
+/*     display: block;
     flex-wrap: wrap;
     flex-direction:  row;
-    margin: 0 32px;
-    justify-content: flex-start;
-}
-
-card {
+    margin: auto; */
     display: flex;
-    flex-direction:  column;
-    justify-content: flex-end;
-    min-width: 400px;
-    text-align: center;
-    border: 2px solid goldenrod;
+    justify-content: space-between;
 }
 
 .card pre:active {
