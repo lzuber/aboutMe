@@ -38,9 +38,6 @@ body {
     justify-content: center;   
 }
 .row {
-/*     display: block;
-    flex-wrap: wrap;
-    flex-direction:  row;*/
     margin: auto; 
     width: 80%;
     display: block;
