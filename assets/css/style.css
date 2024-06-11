@@ -40,20 +40,12 @@ body {
 .row {
 /*     display: block;
     flex-wrap: wrap;
-    flex-direction:  row;
-    margin: auto; */
-    display: flex;
+    flex-direction:  row;*/
+    margin: auto; 
+    width: 80%;
+    display: block;
     justify-content: space-between;
-}
-
-.card pre:active {
-    user-select: all;
-}
-
-pre {
-    text-align: start;
-}
-
-code {
-    background-color: linear-gradient(#e66465, )
+    padding: 30px 0px;
+    font-size: 17px;
+    line-height: 1.5;
 }
